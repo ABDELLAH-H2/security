@@ -1,0 +1,56 @@
+.account-creation-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-visibility {
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: blue;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #005f73;
+}
+
+.alert-box {
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  display: none;
+}
